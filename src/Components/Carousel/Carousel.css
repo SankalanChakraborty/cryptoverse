@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+.alice-carousel{
+    width: 85%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.coin-info{
+    margin-top: 15px;
+}
+
+.coin-info span, .coin-price span:first-of-type{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.coin-info span:first-of-type{
+    margin-right: 10px;
+}
+
+.profit{
+    color: green;
+}
+
+.loss{
+    color: red;
+}
+
+.coin-price{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+}
+
+.coin-price span:first-of-type, .coin-info span:first-of-type{
+    font-style: normal;
+    color: white;
+}
