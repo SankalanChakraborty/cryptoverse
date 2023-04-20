@@ -54,7 +54,7 @@ const Coins = () => {
         </div>
         <div className="flex-direction-row">
           <label htmlFor="crypto-market-cap">Market Cap:</label>
-          <Typography id="crypto-market-cap" variant="h6">$&nbsp;{Number(clickedCoin.data.coin.marketCap).toLocaleString("en-US", {maximumFractionDigits: 2})}</Typography>
+          <Typography id="crypto-market-cap" variant="h6">$&nbsp;{(Number(clickedCoin.data.coin.marketCap)/10000000).toLocaleString("en-US", {maximumFractionDigits: 2})}M</Typography>
         </div>
       </div>
     </div>
